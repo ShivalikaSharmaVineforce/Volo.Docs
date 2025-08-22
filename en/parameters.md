@@ -1,6 +1,6 @@
-# Parameters for AssetManagementDocs
-
-# Example: set default project parameter
-defaultProject: AssetManagementDocs
-
-# You can define other parameters for your docs system
+projectName: AssetManagementDocs
+description: Documentation for Asset Management module.
+version: main
+language: en
+navigationDocument: navigation.md
+indexDocument: index.md
