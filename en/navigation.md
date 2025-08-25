@@ -1,3 +1,3 @@
 # Navigation
 
-- [Index](index.md)
+- [Index](index)
