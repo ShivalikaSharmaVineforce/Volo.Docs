@@ -1,6 +1,8 @@
+---
 projectName: AssetManagementDocs
 description: Documentation for Asset Management module.
-version: v1.0.0
+version: main
 language: en
 navigationDocument: navigation.md
 indexDocument: index.md
+---
