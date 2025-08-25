@@ -1,3 +1,3 @@
 # Navigation
 
-- [Home](index.md)
+- [Home](index)
