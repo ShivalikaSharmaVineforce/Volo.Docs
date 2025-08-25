@@ -1,2 +1,4 @@
-- [Home](index.md)
-- [Parameters](parameters.md)
+- title: Home
+  link: index.md
+- title: Parameters
+  link: parameters.md
