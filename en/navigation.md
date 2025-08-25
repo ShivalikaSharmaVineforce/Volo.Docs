@@ -1,4 +1,4 @@
-- title: Home
-  link: index.md
-- title: Parameters
-  link: parameters.md
+# Navigation
+
+- [Home](index.md)
+- [Parameters](parameters.md)
