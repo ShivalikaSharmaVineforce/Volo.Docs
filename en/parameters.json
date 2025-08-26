@@ -1,0 +1,25 @@
+{
+  "parameters": [
+    {
+      "name": "param1",
+      "description": "This is the first parameter, used for configuring the project’s base directory.",
+      "type": "String",
+      "required": true,
+      "example": "/home/user/project/"
+    },
+    {
+      "name": "param2",
+      "description": "This is the second parameter, used for specifying the version of the project.",
+      "type": "String",
+      "required": false,
+      "example": "v1.0.0"
+    },
+    {
+      "name": "param3",
+      "description": "This is the third parameter, used for setting the language preference.",
+      "type": "String",
+      "required": false,
+      "example": "en"
+    }
+  ]
+}
