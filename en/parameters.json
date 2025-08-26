@@ -1,0 +1,39 @@
+{
+  "parameters": [
+    {
+      "name": "assetId",
+      "description": "Unique identifier for the asset to retrieve or modify.",
+      "type": "String",
+      "required": true,
+      "example": "ASSET-10023"
+    },
+    {
+      "name": "locationCode",
+      "description": "Code representing the location or site where the asset is stored or used.",
+      "type": "String",
+      "required": false,
+      "example": "LOC-DEL-01"
+    },
+    {
+      "name": "status",
+      "description": "The current status of the asset (e.g., Active, Inactive, Maintenance).",
+      "type": "String",
+      "required": false,
+      "example": "Active"
+    },
+    {
+      "name": "category",
+      "description": "The category/type of the asset (e.g., Vehicle, Equipment, Furniture).",
+      "type": "String",
+      "required": false,
+      "example": "Equipment"
+    },
+    {
+      "name": "assignedTo",
+      "description": "The user ID or name of the person responsible for the asset.",
+      "type": "String",
+      "required": false,
+      "example": "user.john.doe"
+    }
+  ]
+}
