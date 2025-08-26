@@ -1,6 +1,9 @@
-projectName: AssetManagementDocs
-description: Documentation for Asset Management module.
-version: main
-language: en
-navigationDocument: navigation.md
-indexDocument: index.md
+# Parameters
+
+This document describes the parameters for the project **AssetManagementDocs**.
+
+## Parameter 1: `param1`
+Description of the first parameter.
+
+## Parameter 2: `param2`
+Description of the second parameter.
