@@ -1,28 +1,48 @@
 # Parameters
 
-This document describes the parameters for the project **AssetManagementDocs**.
+This document defines the configurable parameters for the **AssetManagementDocs** project, which manages assets across various locations, tracks statuses, and assigns responsibilities.
 
-## Parameter 1: `param1`
-- **Description:** This is the first parameter, used for configuring the project’s base directory.
-- **Type:** String
-- **Required:** Yes
-- **Example:** `/home/user/project/`
+## Parameter 1: `assetId`
+- **Description:** Unique identifier for each asset in the system.
+- **Type:** `String`
+- **Required:** ✅ Yes
+- **Example:** `ASSET-000145`
 
-## Parameter 2: `param2`
-- **Description:** This is the second parameter, used for specifying the version of the project.
-- **Type:** String
-- **Required:** No
-- **Example:** `v1.0.0`
+## Parameter 2: `locationCode`
+- **Description:** Represents the location or branch where the asset is stored or deployed.
+- **Type:** `String`
+- **Required:** ❌ No
+- **Example:** `LOC-NY-003`
 
-## Parameter 3: `param3`
-- **Description:** This is the third parameter, used for setting the language preference.
-- **Type:** String
-- **Required:** No
-- **Example:** `en` (English)
+## Parameter 3: `status`
+- **Description:** Current lifecycle status of the asset.
+- **Accepted Values:** `Active`, `Inactive`, `Maintenance`, `Disposed`
+- **Type:** `String`
+- **Required:** ❌ No
+- **Example:** `Active`
 
-## Usage Example
+## Parameter 4: `assignedTo`
+- **Description:** User or employee to whom the asset is currently assigned.
+- **Type:** `String`
+- **Required:** ❌ No
+- **Example:** `john.doe`
 
-Here's an example of how to use these parameters in a command:
+## Parameter 5: `category`
+- **Description:** Type/category of the asset such as vehicle, equipment, or IT hardware.
+- **Type:** `String`
+- **Required:** ❌ No
+- **Example:** `IT-Equipment`
+
+---
+
+## Example Usage
+
+Here's an example of how these parameters might be passed to a CLI tool or API:
 
 ```bash
-your-command --param1 "/home/user/project/" --param2 "v1.0.0" --param3 "en"
+asset-cli assign \
+  --assetId ASSET-000145 \
+  --locationCode LOC-NY-003 \
+  --status Active \
+  --assignedTo john.doe \
+  --category IT-Equipment
