@@ -1,6 +1,6 @@
 # Asset Management Documentation
 
-Welcome to the **Asset Management Module** documentation.  
+Welcome to the **AssetSSS Management Module** documentation.  
 This module helps you manage assets in your system, including asset creation, assignment, tracking, and disposal.
 
 ---
