@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Parameters
 
 This document describes the parameters for the project **AssetManagementDocs**.
